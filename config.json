@@ -51,7 +51,7 @@
           "defaults": {
             "logo": {
               "topbar": "aity/themes/logo.svg",
-              "favicon": "themes/owncloud/assets/favicon.jpg",
+              "favicon": "aity/themes/favicon.ico",
               "login": "aity/themes/logo.svg"
             },
             "loginPage": {
