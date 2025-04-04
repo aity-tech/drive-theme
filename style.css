@@ -1,6 +1,6 @@
 #web-nav-sidebar .versions {
   display: none !important;
 }
-.account-page-info-language.td.a {
+.account-page-info-language > td > a {
   display: none !important;
 }
