@@ -1,0 +1,33 @@
+{
+    "kind": "fontconfiguration",
+    "server": "Aity office suite",
+    "fonts": [
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/Roboto-Italic-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/Roboto-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed-Italic-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono-Italic-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif-Italic-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif-VariableFont.ttf"
+        },
+        {
+            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab-VariableFont.ttf"
+        }
+    ]
+}

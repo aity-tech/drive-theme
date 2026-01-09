@@ -1,0 +1,7 @@
+{
+  "kind": "configuration",
+  "remote_font_config":
+  {
+    "url": "https://drive.aity.tech/aity/office/fonts.json"
+  }
+}
