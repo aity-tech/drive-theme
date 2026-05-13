@@ -1,33 +1,106 @@
 {
-    "kind": "fontconfiguration",
-    "server": "Aity office suite",
-    "fonts": [
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/Roboto-Italic-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/Roboto-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed-Italic-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono-Italic-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif-Italic-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif-VariableFont.ttf"
-        },
-        {
-            "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab-VariableFont.ttf"
-        }
-    ]
+  "kind": "fontconfiguration",
+  "server": "Aity office suite",
+  "fonts": [
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-ThinItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-ExtraLightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-LightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Italic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-MediumItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-SemiBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-BoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-ExtraBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-ExtraBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-Black.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto-BlackItalic.ttf" },
+
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-ThinItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-ExtraLightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-LightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Italic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-MediumItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-SemiBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-BoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-ExtraBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-ExtraBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-Black.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/Roboto/Roboto_SemiCondensed-BlackItalic.ttf" },
+
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-ThinItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-ExtraLightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-LightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Italic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-MediumItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-SemiBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-ExtraBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-ExtraBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-Black.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoCondensed/RobotoCondensed-BlackItalic.ttf" },
+
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-ThinItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-ExtraLightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-LightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Italic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-MediumItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-SemiBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoMono/RobotoMono-BoldItalic.ttf" },
+
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-ThinItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-ExtraLightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-LightItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Italic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-MediumItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-SemiBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-BoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-ExtraBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-ExtraBoldItalic.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-Black.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSerif/RobotoSerif-BlackItalic.ttf" },
+
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Thin.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-ExtraLight.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Light.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Regular.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Medium.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-SemiBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Bold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-ExtraBold.ttf" },
+    { "uri": "https://drive.aity.tech/aity/office/fonts/RobotoSlab/RobotoSlab-Black.ttf" }
+  ]
 }
