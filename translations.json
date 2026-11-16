@@ -70,10 +70,10 @@
    "%{ itemCount } spații selectate",
    "%{ itemCount } de spații selectate"
   ],
-  "%{ itemsCount } item in total": "%{ itemsCount } element în total",
-  "%{ itemsCount } item with %{ itemSize } in total": "%{ itemsCount } element, %{ itemSize } în total",
+  "%{ itemsCount } item in total": "Elemente: %{ itemsCount }",
+  "%{ itemsCount } item with %{ itemSize } in total": "Elemente: %{ itemsCount }, în total %{ itemSize }",
   "%{ itemsCount } items in total": "Elemente: %{ itemsCount }",
-  "%{ itemsCount } items with %{ itemSize } in total": "Elemente: %{ itemsCount }, %{ itemSize } în total",
+  "%{ itemsCount } items with %{ itemSize } in total": "Elemente: %{ itemsCount }, în total %{ itemSize }",
   "%{ roundedRemainingHours } hour left": {
    "": [
     "Mai rămâne %{ roundedRemainingHours } oră",
@@ -217,8 +217,8 @@
   },
   "%{used} of %{total} used (%{percentage}% used)": "Folosit: %{used} din %{total} (%{percentage}%)",
   "%{used} of %{total} used (%{percentage}%)": "Folosit: %{used} din %{total} (%{percentage}%)",
-  "%{used} used": "%{used} utilizat",
-  "%{used} used (no restriction)": "%{used} utilizat (fără restricție)",
+  "%{used} used": "Folosit: %{used}",
+  "%{used} used (no restriction)": "Folosit: %{used} (fără restricție)",
   "%{userCount} user login was edited successfully": [
    "Conectarea pentru %{userCount} utilizator a fost modificată",
    "Conectarea pentru %{userCount} utilizatori a fost modificată",
@@ -371,8 +371,8 @@
    "Accesibility label to change logo": "Schimbă sigla"
   },
   "Change password": "Schimbă parola",
-  "Change quota for %{count} Spaces": "Modifică cota pentru spații (%{count})",
-  "Change quota for %{count} users": "Modifică cota pentru utilizatori (%{count})",
+  "Change quota for %{count} Spaces": "Modifică cota pentru spațiile selectate (%{count})",
+  "Change quota for %{count} users": "Modifică cota pentru utilizatorii selectați (%{count})",
   "Change quota for Space \"%{name}\"": "Modifică cota spațiului „%{name}”",
   "Change quota for user \"%{name}\"": "Modifică cota utilizatorului „%{name}”",
   "Change subtitle for space": "Modifică subtitlul spațiului",
@@ -641,7 +641,7 @@
    "Cota pentru %{count} de utilizatori nu a putut fi modificată"
   ],
   "Failed to copy \"%{name}\"": "„%{name}” nu a putut fi copiat",
-  "Failed to copy %{count} resources": "Resurse care nu au putut fi copiate: %{count}",
+  "Failed to copy %{count} resources": "Elemente care nu au putut fi copiate: %{count}",
   "Failed to create document from template": "Documentul nu a putut fi creat din șablon",
   "Failed to create file": "Fișierul nu a putut fi creat",
   "Failed to create folder": "Folderul nu a putut fi creat",
@@ -723,7 +723,7 @@
   "Failed to hide the share": "Partajarea nu a putut fi ascunsă",
   "Failed to load \"%{filename}\"": "„%{filename}” nu a putut fi încărcat",
   "Failed to move \"%{name}\"": "„%{name}” nu a putut fi mutat",
-  "Failed to move %{count} resources": "Resurse care nu au putut fi mutate: %{count}",
+  "Failed to move %{count} resources": "Elemente care nu au putut fi mutate: %{count}",
   "Failed to open shortcut": "Scurtătura nu a putut fi deschisă",
   "Failed to remove share": "Partajarea nu a putut fi eliminată",
   "Failed to rename \"%{file}\" to \"%{newName}\"": "„%{file}” nu a putut fi redenumit în „%{newName}”",
@@ -1390,7 +1390,7 @@
   "Showing hidden shares now": {
    "Accessibility announcement for screen readers when the user switches to show hidden shares only": "Acum se afișează partajările ascunse"
   },
-  "Showing up to %{searchLimit} results": "Se afișează cel mult %{searchLimit} rezultate",
+  "Showing up to %{searchLimit} results": "Se afișează cel mult %{searchLimit} de rezultate",
   "Shrink the image": "Micșorează imaginea",
   "Sidebar navigation menu": "Meniul de navigare din bara laterală",
   "Sign Language": {
@@ -1472,7 +1472,7 @@
   },
   "Tag must not consist of blanks only": "Eticheta nu poate conține doar spații",
   "Tags": "Etichete",
-  "Tags must not be longer than %{max} characters": "Etichetele nu pot avea mai mult de %{max} caractere",
+  "Tags must not be longer than %{max} characters": "Număr maxim de caractere pentru o etichetă: %{max}",
   "Taken time": "Data fotografierii",
   "Text Editor": "Editor de text",
   "That emoji couldn’t be found": "Emoji-ul nu a fost găsit",
@@ -1561,8 +1561,8 @@
    "Acest spațiu are %{memberShareCount} membri.",
    "Acest spațiu are %{memberShareCount} de membri."
   ],
-  "This space has %{memberShareCount} members and %{linkShareCount} links.": "Membri ai acestui spațiu: %{memberShareCount}; linkuri: %{linkShareCount}.",
-  "This space has %{memberShareCount} members and one link.": "Membri ai acestui spațiu: %{memberShareCount}; are un link.",
+  "This space has %{memberShareCount} members and %{linkShareCount} links.": "Membri: %{memberShareCount}. Linkuri: %{linkShareCount}.",
+  "This space has %{memberShareCount} members and one link.": "Acest spațiu are un link. Membri: %{memberShareCount}.",
   "This space has no public links.": "Acest spațiu nu are linkuri publice.",
   "This space has one member and %{linkShareCount} link.": [
    "Acest spațiu are un membru și %{linkShareCount} link.",
