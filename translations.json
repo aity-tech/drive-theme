@@ -72,8 +72,8 @@
   ],
   "%{ itemsCount } item in total": "%{ itemsCount } element în total",
   "%{ itemsCount } item with %{ itemSize } in total": "%{ itemsCount } element, %{ itemSize } în total",
-  "%{ itemsCount } items in total": "%{ itemsCount } elemente în total",
-  "%{ itemsCount } items with %{ itemSize } in total": "%{ itemsCount } elemente, %{ itemSize } în total",
+  "%{ itemsCount } items in total": "Elemente: %{ itemsCount }",
+  "%{ itemsCount } items with %{ itemSize } in total": "Elemente: %{ itemsCount }, %{ itemSize } în total",
   "%{ roundedRemainingHours } hour left": {
    "": [
     "Mai rămâne %{ roundedRemainingHours } oră",
@@ -117,7 +117,7 @@
   },
   "%{appName} for %{fileName}": "%{appName} pentru %{fileName}",
   "%{collaboratorName} (me)": "%{collaboratorName} (eu)",
-  "%{count} groups selected": "%{count} grupuri selectate",
+  "%{count} groups selected": "Grupuri selectate: %{count}",
   "%{count} item was copied successfully": [
    "%{count} element a fost copiat",
    "%{count} elemente au fost copiate",
@@ -138,7 +138,7 @@
    "%{count} rezultate găsite",
    "%{count} de rezultate găsite"
   ],
-  "%{count} users selected": "%{count} utilizatori selectați",
+  "%{count} users selected": "Utilizatori selectați: %{count}",
   "%{displayName} (me)": "%{displayName} (eu)",
   "%{groupAssignmentCount} group assignment was added successfully": [
    "%{groupAssignmentCount} asociere la grup a fost adăugată",
@@ -155,7 +155,7 @@
    "%{groupCount} grupuri au fost șterse",
    "%{groupCount} de grupuri au fost șterse"
   ],
-  "%{groupCount} groups in total": "%{groupCount} grupuri în total",
+  "%{groupCount} groups in total": "Grupuri în total: %{groupCount}",
   "%{groupCount} member": [
    "%{groupCount} membru",
    "%{groupCount} membri",
@@ -190,8 +190,8 @@
   "%{resource} exceeds the recommended size of %{threshold} for editing, and may cause performance issues.": "%{resource} depășește dimensiunea recomandată de %{threshold} pentru editare și poate cauza probleme de performanță.",
   "%{resource} was restored successfully": "%{resource} a fost restaurat",
   "%{shareType} cannot access %{resourceName}": "%{shareType} nu poate accesa %{resourceName}",
-  "%{spaceCount} matching spaces": "%{spaceCount} spații corespunzătoare",
-  "%{spaceCount} matching trashes": "%{spaceCount} coșuri de gunoi corespunzătoare",
+  "%{spaceCount} matching spaces": "Spații corespunzătoare: %{spaceCount}",
+  "%{spaceCount} matching trashes": "Coșuri de gunoi corespunzătoare: %{spaceCount}",
   "%{spaceCount} space was deleted successfully": [
    "%{spaceCount} spațiu a fost șters",
    "%{spaceCount} spații au fost șterse",
@@ -207,16 +207,16 @@
    "%{spaceCount} spații au fost activate",
    "%{spaceCount} de spații au fost activate"
   ],
-  "%{spaceCount} spaces in total": "%{spaceCount} spații în total",
-  "%{spaceCount} spaces in total (including %{disabledSpaceCount} disabled)": "%{spaceCount} spații în total (inclusiv %{disabledSpaceCount} dezactivate)",
-  "%{spaceCount} trashes in total": "%{spaceCount} coșuri de gunoi în total",
+  "%{spaceCount} spaces in total": "Spații în total: %{spaceCount}",
+  "%{spaceCount} spaces in total (including %{disabledSpaceCount} disabled)": "Spații în total: %{spaceCount} (dezactivate: %{disabledSpaceCount})",
+  "%{spaceCount} trashes in total": "Coșuri de gunoi în total: %{spaceCount}",
   "%{spaceName} (disabled)": "%{spaceName} (dezactivat)",
   "%{uploadedBytes} of %{totalBytes} (%{currentUploadSpeed}/s)": {
    "": "%{uploadedBytes} din %{totalBytes} (%{currentUploadSpeed}/s)",
    "The upload details displayed in the upload overlay.": "%{uploadedBytes} din %{totalBytes} (%{currentUploadSpeed}/s)"
   },
-  "%{used} of %{total} used (%{percentage}% used)": "%{used} din %{total} utilizat (%{percentage}% utilizat)",
-  "%{used} of %{total} used (%{percentage}%)": "%{used} din %{total} utilizat (%{percentage}%)",
+  "%{used} of %{total} used (%{percentage}% used)": "Folosit: %{used} din %{total} (%{percentage}%)",
+  "%{used} of %{total} used (%{percentage}%)": "Folosit: %{used} din %{total} (%{percentage}%)",
   "%{used} used": "%{used} utilizat",
   "%{used} used (no restriction)": "%{used} utilizat (fără restricție)",
   "%{userCount} user login was edited successfully": [
@@ -229,7 +229,7 @@
    "%{userCount} utilizatori au fost șterși",
    "%{userCount} de utilizatori au fost șterși"
   ],
-  "%{userCount} users in total": "%{userCount} utilizatori în total",
+  "%{userCount} users in total": "Utilizatori în total: %{userCount}",
   "(me)": "(eu)",
   "* ... Saving an edited file may not respond immediately to maintenance mode, depending on its duration. If you receive a warning that you cannot save, save a backup of your file locally.": "* ... Este posibil ca salvarea unui fișier editat să nu reacționeze imediat la modul de întreținere, în funcție de durata acestuia. Dacă primești un avertisment că nu poți salva, salvează local o copie de rezervă a fișierului.",
   "A Space can have multiple Managers. Each Space has at least one Manager.": "Un spațiu poate avea mai mulți manageri. Fiecare spațiu are cel puțin un manager.",
@@ -305,9 +305,9 @@
    "Title of the crash page displayed when the application crashes": "Aplicația s-a blocat"
   },
   "Apply": "Aplică",
-  "Apply to all %{count} conflicts": "Aplică pentru toate cele %{count} conflicte",
-  "Apply to all %{count} files": "Aplică pentru toate cele %{count} fișiere",
-  "Apply to all %{count} folders": "Aplică pentru toate cele %{count} foldere",
+  "Apply to all %{count} conflicts": "Aplică pentru toate conflictele (%{count})",
+  "Apply to all %{count} files": "Aplică pentru toate fișierele (%{count})",
+  "Apply to all %{count} folders": "Aplică pentru toate folderele (%{count})",
   "Archive": "Arhivă",
   "Are you sure you want to delete all selected resources? All their content will be permanently removed. This action cannot be undone.": "Sigur vrei să ștergi toate resursele selectate? Tot conținutul lor va fi eliminat definitiv. Această acțiune nu poate fi anulată.",
   "Are you sure you want to delete the selected space?": [
@@ -371,8 +371,8 @@
    "Accesibility label to change logo": "Schimbă sigla"
   },
   "Change password": "Schimbă parola",
-  "Change quota for %{count} Spaces": "Modifică cota pentru %{count} spații",
-  "Change quota for %{count} users": "Modifică cota pentru %{count} utilizatori",
+  "Change quota for %{count} Spaces": "Modifică cota pentru spații (%{count})",
+  "Change quota for %{count} users": "Modifică cota pentru utilizatori (%{count})",
   "Change quota for Space \"%{name}\"": "Modifică cota spațiului „%{name}”",
   "Change quota for user \"%{name}\"": "Modifică cota utilizatorului „%{name}”",
   "Change subtitle for space": "Modifică subtitlul spațiului",
@@ -723,7 +723,7 @@
   "Failed to hide the share": "Partajarea nu a putut fi ascunsă",
   "Failed to load \"%{filename}\"": "„%{filename}” nu a putut fi încărcat",
   "Failed to move \"%{name}\"": "„%{name}” nu a putut fi mutat",
-  "Failed to move %{count} resources": "%{count} resurse nu au putut fi mutate",
+  "Failed to move %{count} resources": "Resurse care nu au putut fi mutate: %{count}",
   "Failed to open shortcut": "Scurtătura nu a putut fi deschisă",
   "Failed to remove share": "Partajarea nu a putut fi eliminată",
   "Failed to rename \"%{file}\" to \"%{newName}\"": "„%{file}” nu a putut fi redenumit în „%{newName}”",
@@ -740,7 +740,7 @@
   },
   "Failed to reset logo": "Sigla nu a putut fi resetată",
   "Failed to restore \"%{resource}\"": "„%{resource}” nu a putut fi restaurat",
-  "Failed to restore %{resourceCount} files": "%{resourceCount} fișiere nu au putut fi restaurate",
+  "Failed to restore %{resourceCount} files": "Fișiere care nu au putut fi restaurate: %{resourceCount}",
   "Failed to set space icon": "Pictograma spațiului nu a putut fi setată",
   "Failed to set space image": "Imaginea spațiului nu a putut fi setată",
   "Failed to unhide share share": "Partajarea nu a putut fi reafișată",
@@ -817,7 +817,7 @@
   "Food & Drink": "Mâncare și băutură",
   "For help visit our": "Pentru ajutor, consultă",
   "Forbidden": "Interzis",
-  "Found %{totalResults}, showing the %{itemCount} best matching results": "S-au găsit %{totalResults}, se afișează cele mai relevante %{itemCount} rezultate",
+  "Found %{totalResults}, showing the %{itemCount} best matching results": "Rezultate găsite: %{totalResults}; se afișează cele mai relevante (%{itemCount})",
   "Frequently used": "Folosite frecvent",
   "From": "De la",
   "Fulfilled": "Îndeplinită",
@@ -1561,8 +1561,8 @@
    "Acest spațiu are %{memberShareCount} membri.",
    "Acest spațiu are %{memberShareCount} de membri."
   ],
-  "This space has %{memberShareCount} members and %{linkShareCount} links.": "Acest spațiu are %{memberShareCount} membri și %{linkShareCount} linkuri.",
-  "This space has %{memberShareCount} members and one link.": "Acest spațiu are %{memberShareCount} membri și un link.",
+  "This space has %{memberShareCount} members and %{linkShareCount} links.": "Membri ai acestui spațiu: %{memberShareCount}; linkuri: %{linkShareCount}.",
+  "This space has %{memberShareCount} members and one link.": "Membri ai acestui spațiu: %{memberShareCount}; are un link.",
   "This space has no public links.": "Acest spațiu nu are linkuri publice.",
   "This space has one member and %{linkShareCount} link.": [
    "Acest spațiu are un membru și %{linkShareCount} link.",
