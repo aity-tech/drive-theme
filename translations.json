@@ -535,6 +535,7 @@
   "Don't Save": "Nu salva",
   "Download": "Descarcă",
   "Download failed": "Descărcarea a eșuat",
+  "Download version from %{date}": "Descarcă versiunea din %{date}",
   "Drag files and folders here or use the \"New\" or \"Upload\" buttons to add files": "Trage fișiere și foldere aici sau folosește butoanele „Nou” sau „Încarcă” pentru a adăuga fișiere",
   "Drive": "Drive",
   "Drop files here to upload or use the 'Upload' button.": "Trage fișierele aici pentru a le încărca sau folosește butonul „Încarcă”.",
@@ -640,7 +641,7 @@
    "Cota pentru %{count} de utilizatori nu a putut fi modificată"
   ],
   "Failed to copy \"%{name}\"": "„%{name}” nu a putut fi copiat",
-  "Failed to copy %{count} resources": "%{count} resurse nu au putut fi copiate",
+  "Failed to copy %{count} resources": "Resurse care nu au putut fi copiate: %{count}",
   "Failed to create document from template": "Documentul nu a putut fi creat din șablon",
   "Failed to create file": "Fișierul nu a putut fi creat",
   "Failed to create folder": "Folderul nu a putut fi creat",
@@ -1256,6 +1257,7 @@
   "Resource not found": "Resursa nu a fost găsită",
   "Resources": "Resurse",
   "Restore": "Restaurează",
+  "Restore version from %{date}": "Restaurează versiunea din %{date}",
   "Restrictions": "Restricții",
   "Results will appear if they exist.": {
    "Accesibility label to inform user that search results will appear below the search bar if they exist": "Rezultatele vor apărea dacă există."
@@ -1524,7 +1526,7 @@
   ],
   "This URL represents the instance of the trusted partner.": "Acest URL reprezintă instanța partenerului de încredere.",
   "This could be because of a routine safety log out, or because your account is either inactive or not yet authorized for use. Please try logging in after a while or seek help from your Administrator.": "Cauza poate fi o deconectare de rutină din motive de siguranță sau faptul că contul tău este inactiv ori nu este încă autorizat. Încearcă să te conectezi din nou peste puțin timp sau cere ajutorul administratorului.",
-  "This feature is brought to you by ownCloud": "Această funcție îți este oferită de Aity Drive",
+  "This feature is brought to you by ownCloud": "Această funcție îți este oferită de ownCloud",
   "This file has been shared.": "Acest fișier a fost partajat.",
   "This file has no public link.": "Acest fișier nu are niciun link public.",
   "This file is currently being processed and is not yet available for use. Please try again shortly.": "Fișierul este în curs de procesare și nu poate fi folosit încă. Încearcă din nou în scurt timp.",
@@ -1700,6 +1702,8 @@
    "The error message displayed on login page when login fails due to any kind of error.": "Avem probleme la conectarea cu serviciul de autentificare. Dacă problema persistă, contactează echipa de asistență."
   },
   "Web client version": "Versiunea clientului web",
+  "WebDAV URL": "URL WebDAV",
+  "WebDAV path": "Cale WebDAV",
   "Webfinger": "WebFinger",
   "Webpage or file": "Pagină web sau fișier",
   "What are indirect links?": "Ce sunt linkurile indirecte?",
@@ -1738,6 +1742,7 @@
   "Your access to this space has been revoked. Please navigate to another location.": "Accesul tău la acest spațiu a fost revocat. Navighează către altă locație.",
   "Your changes were not saved. Do you want to save them?": "Modificările tale nu au fost salvate. Vrei să le salvezi?",
   "Your multi-factor authentication session is about to expire. Would you like to extend it?": "Sesiunea de autentificare cu mai mulți factori este pe cale să expire. Vrei să o prelungești?",
+  "Your own account will not be deleted.": "Contul tău nu va fi șters.",
   "Your own login status will remain unchanged.": "Starea propriei tale conectări rămâne neschimbată.",
   "Z-A": "Z-A",
   "chat": "chatul nostru",
