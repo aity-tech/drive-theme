@@ -55,7 +55,7 @@
               "login": "aity/themes/logo.svg"
             },
             "loginPage": {
-              "backgroundImg": "aity/themes/background.svg"
+              "backgroundImg": "/aity/themes/background.svg"
             },
             "designTokens": {
               "breakpoints": {
